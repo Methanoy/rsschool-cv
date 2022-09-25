@@ -30,22 +30,22 @@ ___
 
 #### Code examples
 
-Project "Mesto"  
-Stack: HTML, CSS (Flexbox / Grid / adaptive layout), JavaScript / React.js, Express.js, MongoDB, BEM, Git, Webpack.  
-Functionality: an interactive service with the ability to add / remove photo cards, edit a profile and like beautiful places from all over the world.  
-Link to app: https://methanoy.nomoredomains.sbs  
-Frontend repo: https://github.com/Methanoy/react-mesto-auth  
-Backend repo: https://github.com/Methanoy/express-mesto-gha  
+**Project "Mesto"**  
+- *Stack*: HTML, CSS (Flexbox / Grid / adaptive layout), JavaScript / React.js, Express.js, MongoDB, BEM, Git, Webpack.  
+- *Functionality*: an interactive service with the ability to add / remove photo cards, edit a profile and like beautiful places from all over the world.  
+- *Link to app*: <https://methanoy.nomoredomains.sbs>  
+- *Frontend repo*: <https://github.com/Methanoy/react-mesto-auth>  
+- *Backend repo*: <https://github.com/Methanoy/express-mesto-gha>  
 
-Project "Travel to Russia"  
-Stack: HTML, CSS (Flexbox / Grid), BEM, Git.  
-Functionality: a one-page website with travel notes.  
-Repo: https://github.com/methanoy/russian-travel  
+**Project "Travel to Russia"**  
+- *Stack*: HTML, CSS (Flexbox / Grid), BEM, Git.  
+- *Functionality*: a one-page website with travel notes.  
+- *Repo*: <https://github.com/methanoy/russian-travel>  
 
-Stack "Learn to learn"  
-Stack: HTML, CSS (Flexbox), YouTube API, BEM, Git.  
-Functionality: a one-page website with usefull information about methods of increasing productivity in learning.  
-Repo: https://github.com/methanoy/how-to-learn  
+**Project "Learn to learn"**  
+- *Stack*: HTML, CSS (Flexbox), YouTube API, BEM, Git.  
+- *Functionality*: a one-page website with usefull information about methods of increasing productivity in learning.  
+- *Repo*: <https://github.com/methanoy/how-to-learn>  
 
 ___  
 
