@@ -40,11 +40,13 @@ ___
 **Project "Travel to Russia"**  
 - *Stack*: HTML, CSS (Flexbox / Grid), BEM, Git.  
 - *Functionality*: a one-page website with travel notes.  
+- *Link to app*: <https://methanoy.github.io/russian-travel/>  
 - *Repo*: <https://github.com/methanoy/russian-travel>  
 
 **Project "Learn to learn"**  
 - *Stack*: HTML, CSS (Flexbox), YouTube API, BEM, Git.  
 - *Functionality*: a one-page website with usefull information about methods of increasing productivity in learning.  
+- *Link to app*: <https://methanoy.github.io/how-to-learn/>  
 - *Repo*: <https://github.com/methanoy/how-to-learn>  
 
 ___  
