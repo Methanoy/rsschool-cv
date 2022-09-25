@@ -28,22 +28,50 @@ ___
 
 ___  
 
-#### Code examples
+#### Code example
 
-**Project "Mesto"**  
+User authentication function `login`. If the email and password match those in the database, the user logs in to the site. Otherwise - receives an error message. After authorization function `login` will make token and save it to cookie.
+
+```javascript
+const login = (req, res, next) => {
+  const { email, password } = req.body;
+  User
+    .findUserByCredentials(email, password)
+    .then((user) => {
+      const token = jwt.sign(
+        { _id: user._id },
+        NODE_ENV === 'production' ? JWT_SECRET : 'some-secret',
+        { expiresIn: '7d' },
+      );
+
+      res.cookie('jwt', token, {
+        maxAge: 3600000 * 24 * 7,
+        secure: NODE_ENV === 'production',
+        httpOnly: true,
+      })
+        .send({ message: 'Вы успешно авторизовались.' });
+    })
+    .catch(next);
+};
+```
+___  
+
+#### Projects
+
+**_Mesto_**  
 - *Stack*: HTML, CSS (Flexbox / Grid / adaptive layout), JavaScript / React.js, Express.js, MongoDB, BEM, Git, Webpack.  
 - *Functionality*: an interactive service with the ability to add / remove photo cards, edit a profile and like beautiful places from all over the world.  
 - *Link to app*: <https://methanoy.nomoredomains.sbs>  
 - *Frontend repo*: <https://github.com/Methanoy/react-mesto-auth>  
 - *Backend repo*: <https://github.com/Methanoy/express-mesto-gha>  
 
-**Project "Travel to Russia"**  
+**_Travel to Russia_**  
 - *Stack*: HTML, CSS (Flexbox / Grid), BEM, Git.  
 - *Functionality*: a one-page website with travel notes.  
 - *Link to app*: <https://methanoy.github.io/russian-travel/>  
 - *Repo*: <https://github.com/methanoy/russian-travel>  
 
-**Project "Learn to learn"**  
+**_Learn to learn_**  
 - *Stack*: HTML, CSS (Flexbox), YouTube API, BEM, Git.  
 - *Functionality*: a one-page website with usefull information about methods of increasing productivity in learning.  
 - *Link to app*: <https://methanoy.github.io/how-to-learn/>  
