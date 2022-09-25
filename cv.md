@@ -51,6 +51,13 @@ ___
 
 #### Courses
 
-1. Yandex.Practicum - Web-developer (writing a diploma project).
-2. CodeAcademy - Frontend developer.
-3. Stepik - Security analysis of web-projects (in progress).
+1. Yandex.Practicum - Web-developer (writing a diploma project).  
+2. CodeAcademy - Frontend developer.  
+3. Stepik - Security analysis of web-projects (in progress).  
+
+___  
+
+#### Languages
+
+- Russian - native  
+- English - intermediate  
