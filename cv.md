@@ -49,7 +49,7 @@ const login = (req, res, next) => {
         secure: NODE_ENV === 'production',
         httpOnly: true,
       })
-        .send({ message: 'Вы успешно авторизовались.' });
+        .send({ message: 'You have successfully logged in.' });
     })
     .catch(next);
 };
